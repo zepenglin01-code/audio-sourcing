@@ -36,19 +36,18 @@ input,textarea,button,select,summary{border-color:#dfe5e9}.primary{background:#e
 @media(max-width:1250px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.heroStats{gap:18px}.heroStats strong{font-size:22px}.filterSecondary .spacer{display:none}}
 @media(max-width:960px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}header{align-items:flex-start}.heroStats{display:none}.layoutHint{display:none}.multi{flex:1}.toolbar .search{min-width:100%}}
 @media(max-width:600px){header{padding:23px 18px}h1{font-size:23px}.wrap{padding:0 12px;margin-top:14px}.grid{grid-template-columns:1fr}.thumb{height:280px}.merchantFilters{padding:10px}.toolbar{gap:6px}.multi{min-width:28%;flex:1}.multi summary{font-size:12px;padding:8px}.toolbar input,.toolbar select,.toolbar button{padding:8px;font-size:12px}.filterSecondary{gap:6px}.filterSecondary input{width:78px}.filterSecondary label{font-size:11px}.filterSecondary select{max-width:145px}.statusLine{margin-top:7px}.noticeLead{display:none}.submissionNotice>summary{padding:12px 15px}.noticeBody{padding:0 15px 15px}.bar{padding:10px 12px;flex-wrap:nowrap;gap:10px}.bar>div{max-width:63%}.bar button{white-space:nowrap;font-size:12px}#storageStatus{font-size:10px}.cardBody{padding:16px}.imageDialog{padding:10px}.options{min-width:220px}.multi:nth-of-type(3n) .options{right:0;left:auto}}
+.submissionNotice>summary{flex-wrap:wrap}.noticeToggleHint{font-size:12px;font-weight:600;color:#c84c2d;white-space:nowrap}.noticeCollapse{display:none}.submissionNotice[open] .noticeExpand{display:none}.submissionNotice[open] .noticeCollapse{display:inline}
 </style></head><body>
 <header><div><div class="heroKicker">商家寻品看板 · 常规备货</div><h1>影音娱乐爆款开发清单 常规备货</h1><p>筛选目标商品，核对同款外观，通过邀请 ID 提报</p></div><div class="heroStats"><div><strong id="catalogTotal">—</strong><span>在招商品</span></div><div><strong id="inviteTotal">—</strong><span>有邀请 ID</span></div><div><strong id="brandTotal">—</strong><span>品牌</span></div></div></header>
-<main class="wrap"><details class="panel submissionNotice"><summary>提品须知与提品方法 <span class="noticeLead">外观一致 · 邀请提报 · 五大站点属性维护</span></summary><div class="noticeBody">
+<main class="wrap"><details class="panel submissionNotice"><summary>提品须知与提品方法 <span class="noticeLead">外观一致 · 邀请提报 · 五大站点属性维护</span><span class="noticeToggleHint"><span class="noticeExpand">点击展开查看规则</span><span class="noticeCollapse">点击收起规则</span></span></summary><div class="noticeBody">
   <h2 id="submissionNoticeTitle">提品须知：</h2>
   <p>为了提高链接质量，提高链接被点击的概率，请提品时可以参考 <a class="docLink" href="https://doc.weixin.qq.com/sheet/e3_AW4AogZZAFguZGQAvfARCyd61YBIn?scode=AHIAtge9AAYe1Qor2PAbsAywaxAOY&amp;tab=1mespa" target="_blank" rel="noopener noreferrer"><span class="docIcon" aria-hidden="true">▦</span>提品前必读</a>，按照建议修改文案和图片</p>
-  <p>已生成的产品Prod编码填写在以下表格，或者发群里@买手可优先对接，<strong>请勿覆盖已有数据</strong></p>
   <p class="noticeFocus">重点关注要求：</p>
   <ol>
     <li><strong>产品外观100%一致才可以提报，外观不一样，请按普通提品方法提报</strong></li>
     <li><strong>务必通过邀请ID提报，非邀请途径上品可能会导致审核时间变长甚至影响后续资源</strong></li>
     <li class="noticeImportant">VMI履约方式： 上品&gt;发给买手审核&gt;审核通过&gt;发货到虾皮仓&gt;上架售卖</li>
     <li class="noticeImportant">麦克风、音响产品，务必维护好 菲律宾、马来西亚、巴西、泰国、越南这五大站点的属性信息，确保这五个潜力市场能售卖</li>
-    <li>筛选T列，可以找到对应的品类，快速浏览清单</li>
     <li class="noticeImportant">非清单产品也可以提报，具体提报方法请看: <a class="docLink" href="https://doc.weixin.qq.com/sheet/e3_AW4AogZZAFgCNg8yVid7vRYmqzWaT?scode=AHIAtge9AAYtn0vTYgAbsAywaxAOY&amp;tab=ai1don" target="_blank" rel="noopener noreferrer"><span class="docIcon" aria-hidden="true">▦</span>Audio no earphone JIT开发清单</a></li>
   </ol>
   <div class="submissionMethod" aria-labelledby="submissionMethodTitle">
